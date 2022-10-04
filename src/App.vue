@@ -1,6 +1,6 @@
 <template>
-  <router-link to="/">Home</router-link>
-  <router-link to="/edit-error">Edit Error</router-link>
+  <router-link class="p-button  p-button-rounded m-1" to="/">urql Issue</router-link>
+  <router-link class="p-button  p-button-rounded m-1" to="/edit-error">Edit grid issue</router-link>
   <router-view />
 </template>
 
