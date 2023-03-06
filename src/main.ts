@@ -15,12 +15,14 @@ import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css ';
 import 'primeflex/primeflex.css';
 import RendererFailure from './Views/RendererFailure.vue';
+import AggregationError from './Views/AggregationError.vue';
 
 const app = createApp(App);
 const routes = [
   { path: '/', component: UrqlFailure },
   { path: '/edit-error', component: EditFailure },
   { path: '/render-error', component: RendererFailure },
+  { path: '/aggregation-error', component: AggregationError },
 ];
 
 const router = createRouter({
